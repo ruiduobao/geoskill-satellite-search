@@ -50,3 +50,7 @@ scripts/_run_translate.ps1
 # Editor scratch / temp
 *.tmp
 *.bak
+
+# Upgrade v1: never commit caches or partial downloads
+*.pyc
+*.part
